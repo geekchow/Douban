@@ -10,14 +10,12 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-60dip"
         android:paddingLeft="20dip"
         android:paddingRight="20dip"
         android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         android:src="@drawable/logo" >
     </ImageView>
-    <!--  android:layout_marginTop="-60dip" ： 最多移动60个dp-->
     <!--
          android:scaleType是控制图片如何resized/moved来匹对ImageView的size CENTER_INSIDE
 		/ centerInside 将图片的内容完整居中显示，通过按比例缩小或原来的size使得图片长/宽等于或小于View的长/宽
@@ -54,7 +52,7 @@
     </TextView>
 
     <TextView
-        android:id="@+id/versionNumber"
+        android:id="@+id/splash_version_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
